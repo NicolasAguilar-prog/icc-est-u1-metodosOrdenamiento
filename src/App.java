@@ -8,24 +8,16 @@ public class App {
         int [] numeros = {-5,10,2,0,7};
         // Instancia de la clase
         BubbleSort bubbleSort = new BubbleSort();
-        // bubbleSort.printArreglos(numeros);
-        // System.out.println("");
-        // System.out.println("Ascendente:");
-        // bubbleSort.sortAscendente(numeros);
-        // bubbleSort.printArreglos(numeros);
-        // System.out.println("");
-        // System.out.println("Descendente:");
-        // bubbleSort.sortDescendente(numeros);
-        // bubbleSort.printArreglos(numeros);
+      
         System.out.println("");
-        System.out.println("ANTES");
+        System.out.println("ANTES DE ORDENAR");
         bubbleSort.printArreglos(numeros);
         System.out.println("");
-        System.out.println("Descendente");
+        System.out.println("ORDENAMIENTO Descendente");
         bubbleSort.sort(numeros, true);
         bubbleSort.printArreglos(numeros);
         System.out.println("");
-        System.out.println("Ascendente");
+        System.out.println("ORDENAMIENTO Ascendente");
         bubbleSort.sort(numeros, false);
         bubbleSort.printArreglos(numeros);
 
