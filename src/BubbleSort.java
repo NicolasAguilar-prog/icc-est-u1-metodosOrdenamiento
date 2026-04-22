@@ -2,7 +2,7 @@ public class BubbleSort {
     //Constructor
     public BubbleSort(){
         System.out.println("Se creo la clase en el constructor");
-
+       
     }
 
     public void sortAscendente(int numeros[]){
